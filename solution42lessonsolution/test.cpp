@@ -9,8 +9,8 @@ void test01() {
 	{ 1,2,3,4,5 },
 	{ 1,2,3,4,5 } };
 
-	int expected = 0;
-	int actual = count_zero_elements(matrix);
+	string expected = 0;
+	print(matrix, expected, "test01");
 
 	string msg = expected == actual ? "PASS(green)" : "FAIL(red)";
 
